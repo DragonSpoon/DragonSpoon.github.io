@@ -3,17 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Welcome - My Mini Site</title>
+  <title>DragonSpoon Mini-Site</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+    <nav>
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Projects</button>
+            <div class="dropdown-content">
+            <a href="projects.html">All Projects</a>
+            <a href="websites.html">Websites</a>
+            <a href="design.html">Design</a>
+            </div>
+        </div>
+        <a href="contact.html">Contact</a>
+    </nav>
 
   <header class="hero">
     <div class="hero-content">
