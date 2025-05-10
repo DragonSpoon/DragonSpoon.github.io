@@ -5,10 +5,11 @@ body {
     color: #333;
   }
   
-  nav {
+ /* Nav base */
+nav {
     background-color: #222;
     padding: 1rem;
-    text-align: left;
+    text-align: center;
   }
   
   nav a,
@@ -23,16 +24,12 @@ body {
     font-size: 1rem;
   }
   
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
   /* Dropdown container */
   .dropdown {
     display: inline-block;
     position: relative;
   }
-
+  
   /* Dropdown menu (hidden by default) */
   .dropdown-content {
     display: none;
@@ -43,22 +40,23 @@ body {
     z-index: 1;
     text-align: left;
   }
-
+  
   .dropdown-content a {
     color: white;
     padding: 12px 16px;
     display: block;
     text-decoration: none;
   }
-
+  
   .dropdown-content a:hover {
     background-color: #444;
   }
-
-/* Show menu on hover */
+  
+  /* Show menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  
 
   .hero {
     background: linear-gradient(135deg, #a0c4ff, #bdb2ff);
