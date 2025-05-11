@@ -86,6 +86,13 @@
   p {
     margin-bottom:
 
+ /* Max Scale */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
  /* Gallery */
  .gallery {
     display: grid;
