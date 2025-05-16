@@ -1,0 +1,46 @@
+/* Ensure caption is positioned above all Lightbox elements */
+.lb-data {
+    position: relative !important;
+    z-index: 9999 !important;
+    pointer-events: auto; /* so it can be interacted with if needed */
+  }
+  
+/* Absolutely position the caption, pulling it upward */
+.lb-data .lb-caption {
+    position: absolute !important;
+    bottom: -30px;        /* Adjust this value to fine-tune vertical position */
+    left: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 4px 0;
+    border-radius: 3px;
+    z-index: 10000 !important;
+    pointer-events: auto;
+  }
+  .lb-data .lb-number {
+    position: absolute !important;
+    bottom: -65px;     /* adjust to move below caption */
+    left: 0;
+    width: 100%;
+    text-align: left;
+    color: gray;
+    font-size: 13px;
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  .lb-close {
+    position: absolute !important;
+    top: 5px;      /* Distance from top */
+    right: -55px;    /* Distance from right */
+    z-index: 1; /* Ensure it's on top */
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    cursor: pointer;
+  }
+
+.lb-data .lb-close{display:block;float:right;width:30px;height:30px;background:url(../images/close.png) top right no-repeat;text-align:right;outline:0;filter:alpha(Opacity=70);opacity:.7;-webkit-transition:opacity .2s;-moz-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s}
+
+.lb-data .lb-close:hover{cursor:pointer;filter:alpha(Opacity=100);opacity:1}

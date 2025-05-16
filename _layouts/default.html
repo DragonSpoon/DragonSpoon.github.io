@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>{{ page.title }} - {{ site.title }}</title>
   <link href="{{ '/style.css' | relative_url }}" rel="stylesheet"/>
-
-  <link rel="stylesheet" href="/dist/css/lightbox.min.css">
+  <!-- Modified Personally for longer bottom border -->
+  <link rel="stylesheet" href="{{'/dist/css/lightbox.min.edit.css' | relative_url}}">
   <script src="/dist/js/lightbox-plus-jquery.min.js"></script>
  
+  <!--   Customize Lightbox Settings For Caption Display and Button fixing-->
+  <link rel="stylesheet" href="{{'/dist/css/lightbox-custom.css' | relative_url}}">
 
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>

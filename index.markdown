@@ -11,8 +11,11 @@ This is the homepage temp.
 
 <a href="images/moon.jpg" data-lightbox="moon-1" data-title="Temp Caption">Embedded Image Example</a>
 
-<!-- ### Two Individual Images
+### Two Individual Images
 
+<a href="images/moon.jpg" data-lightbox="example-1">
+  <img src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-1.jpg" alt="image-1" />
+</a>
 <a href="http://lokeshdhakar.com/projects/lightbox2/images/image-1.jpg" data-lightbox="example-1">
   <img src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-1.jpg" alt="image-1" />
 </a>
@@ -35,4 +38,4 @@ This is the homepage temp.
 </a>
 <a href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close.">
   <img src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg" alt="Image 6" />
-</a> -->
+</a>
