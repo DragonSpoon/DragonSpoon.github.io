@@ -41,6 +41,7 @@
     cursor: pointer;
   }
 
-.lb-data .lb-close{display:block;float:right;width:30px;height:30px;background:url(../images/close.png) top right no-repeat;text-align:right;outline:0;filter:alpha(Opacity=70);opacity:.7;-webkit-transition:opacity .2s;-moz-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s}
-
-.lb-data .lb-close:hover{cursor:pointer;filter:alpha(Opacity=100);opacity:1}
+  /* Disable animations */
+  .lb-loader {
+    display: none !important;
+  }
